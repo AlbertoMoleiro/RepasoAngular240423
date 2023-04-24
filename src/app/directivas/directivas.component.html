@@ -1,0 +1,22 @@
+<h2>NgIf - Else</h2>
+<div *ngIf="mostrar; else elseBlock">
+  <p>Mostrar cuando verdadero</p>
+</div>
+<ng-template #elseBlock>
+  <p>No mostrar</p>
+</ng-template>
+
+<h2>NgFor - Enum</h2>
+<select name="estaciones" id="">
+  <option *ngFor="let estacion of estaciones" [value]="estacion">
+    {{estacion}}
+  </option>
+</select>
+
+<h2>NgSwitch</h2>
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'rojo'">El color es rojo</div>
+  <div *ngSwitchCase="'azul'">El color es azul</div>
+  <div *ngSwitchCase="'verde'">El color es verde</div>
+  <div *ngSwitchDefault>El color no es rojo, azul o verde</div>
+</div>

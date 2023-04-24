@@ -1,0 +1,30 @@
+nav{
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 10px;
+   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    color: #4c4eba;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #4cbaaf;
+    text-decoration: underline;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
