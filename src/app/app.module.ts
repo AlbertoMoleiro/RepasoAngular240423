@@ -15,6 +15,10 @@ import { OrigenQueryParamComponent } from './origen-query-param/origen-query-par
 import { DestinoQueryParamComponent } from './destino-query-param/destino-query-param.component';
 import { FormsModule } from '@angular/forms';
 import { HelloWorldService } from './services/hello-world.service';
+import { HijoInputComponent } from './hijo-input/hijo-input.component';
+import { PadreInputComponent } from './padre-input/padre-input.component';
+import { PadreOutputComponent } from './padre-output/padre-output.component';
+import { HijoOutputComponent } from './hijo-output/hijo-output.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,11 @@ import { HelloWorldService } from './services/hello-world.service';
     OrigenParametroComponent,
     DestinoParametroComponent,
     OrigenQueryParamComponent,
-    DestinoQueryParamComponent
+    DestinoQueryParamComponent,
+    HijoInputComponent,
+    PadreInputComponent,
+    PadreOutputComponent,
+    HijoOutputComponent
   ],
   imports: [
     BrowserModule,

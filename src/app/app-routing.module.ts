@@ -10,6 +10,8 @@ import { OrigenParametroComponent } from './origen-parametro/origen-parametro.co
 import { OrigenQueryParamComponent } from './origen-query-param/origen-query-param.component';
 import { DestinoParametroComponent } from './destino-parametro/destino-parametro.component';
 import { DestinoQueryParamComponent } from './destino-query-param/destino-query-param.component';
+import { PadreInputComponent } from './padre-input/padre-input.component';
+import { PadreOutputComponent } from './padre-output/padre-output.component';
 
 const routes: Routes = [
   { path: '', component:InterpolationComponent },
@@ -23,6 +25,8 @@ const routes: Routes = [
   { path: 'origen-query-param', component: OrigenQueryParamComponent },
   { path: 'destino-parametro/:id', component: DestinoParametroComponent },
   { path: 'destino-query-param', component: DestinoQueryParamComponent },
+  { path: 'padre-input', component: PadreInputComponent },
+  { path: 'padre-output', component: PadreOutputComponent },
   { path: '**', component:InterpolationComponent }
 ];
 
